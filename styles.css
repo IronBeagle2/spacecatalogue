@@ -30,6 +30,10 @@ html, body {
     padding-left: 20px;
 }
 
+.content a:link, .content a:visited, .content a:hover, .content a:active {
+    color: white;
+}
+
 .content img {
     max-width: 720px;
 }
