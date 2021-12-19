@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SpaceCatalogue | {{ page.title }}</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+        <div class="topnav">
+        <img src="/logo.png" height="75%">
+    </div>
+
+    <div class="sidenav">
+        <b><center>NAVIGATION</center></b>
+        <hr>
+        <a href="#">Our Solar System</a><br>
+        <a href="#">Constellations</a><br>
+        <a href="#">Stars</a><br>
+        <a href="#">Galaxies</a><br>
+        <a href="#">Exoplanets</a><br><br>
+    </div>
+
+    <div class="content">
+        <b class="pgtitle">{{ page.title }}</b><br> 
+        {{ content }}
+    </div>
+
+    <div class="footer">(C) DEJVOSS 2021</div>
+</body>
+
+</html>

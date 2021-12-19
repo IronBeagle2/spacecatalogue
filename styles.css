@@ -30,3 +30,7 @@ html, body {
 .footer {
     color: white;
 }
+
+.pgtitle {
+    font-size: 18px;
+}
