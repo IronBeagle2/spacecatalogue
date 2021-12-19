@@ -13,7 +13,7 @@ html, body {
     background-color: black;
     float: left;
     height:100%;
-    width:15%;
+    width:10%;
     color:white;
 }
 
@@ -22,13 +22,18 @@ html, body {
 }
 
 .content {
+    padding: 15px;
     background-color: rgb(83, 83, 83);
     color: white;
     height:100%;
+    float: right;
+    width: 85%;
+    padding-left: 20px;
 }
 
 .footer {
     color: white;
+    float: left;
 }
 
 .pgtitle {
