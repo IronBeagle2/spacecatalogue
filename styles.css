@@ -30,6 +30,9 @@ html, body {
     padding-left: 20px;
 }
 
+.content img {
+    max-width: 840px;
+}
 .footer {
     position:fixed;
     right:0;
