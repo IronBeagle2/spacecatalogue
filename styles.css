@@ -25,7 +25,6 @@ html, body {
     padding: 15px;
     background-color: rgb(83, 83, 83);
     color: white;
-    height:100%;
     float: right;
     width: 85%;
     padding-left: 20px;
@@ -33,7 +32,9 @@ html, body {
 
 .footer {
     color: white;
-    float: left;
+    position:fixed;
+    right:0;
+    bottom:0;
 }
 
 .pgtitle {
