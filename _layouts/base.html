@@ -1,40 +1,78 @@
-<!DOCTYPE html>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 
 <head>
-    <title>SpaceCatalogue | {{ page.title }}</title>
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <title>{{ page.title }} | SpaceCatalogue</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <link rel="stylesheet" type="text/css" href="/files/styles.css" />
+    <link rel="shortcut icon" href="/files/favicon.ico" />
+
 </head>
 
 <body>
-        <div class="topnav">
-        <img src="/logo.png" height="75%">
-    </div>
 
-    <div class="sidenav">
-        <b><center>NAVIGATION</center></b>
-        <hr>
-        <a href="/">Home</a><br>
-        <a href="/solar-system/">Solar System</a><br>
-        <a href="/constellation/">Constellations (TBA)</a><br>
-        <a href="/star/">Stars (TBA)</a><br>
-        <a href="/messier/">Messier</a><br>
-        <a href="/ngc/">NGC (TBA)</a><br>
-        <a href="/galaxy/">Galaxies (TBA)</a><br>
-        <a href="/nebula/">Nebulae (TBA)</a><br>
-        <a href="/exoplanet/">Exoplanets (TBA)</a><br><br>
+    <center>
+        <table border="0" cellpadding="0" cellspacing="0" width="1500">
+            <tr>
+                <td width="75" class="content" valign="top">
+                    <center>
+                        <br>
+                        <a class="left" href="/" target="_top"><b>HOME</b></a><br>
+                        <br>
+                        <b>Website</b><br>
+                        <a class="left" target="_top" href="/news/">News</a><br>
+                        <a class="left" target="_top" href="/changelog/">Changelog<br></a>
+                        <br>
+                        <b>Solar System</b><br>
+                        <a class="left" target="_top" href="/solar/sun/">The Sun</a><br>
+                        <a class="left" target="_top" href="/solar/planet/">Planets</a><br>
+                        <a class="left" target="_top" href="/solar/asteroid/">Asteroids</a><br>
+                        <a class="left" target="_top" href="/solar/comet/">Comets</a><br>
+                    </center>
+                </td>
+                <td width="490" valign="top">
+                    <table width="100%" bgcolor="#FFFFFF" border="1" cellpadding="7" cellspacing="0">
+                        <tr>
+                            <td>
+                                <center>
+                                    <img src="/files/logo.png">
+                                </center>
+                                <h1>{{ page.title }}</h1>
+                                <hr>
 
-        <div class="footer"><a href="/copyright/">(C) DEJVOSS 2021</a></div>
-    </div>
+                                {{ content }}
 
-    <div class="content">
-        <h2 class="pgtitle">{{ page.title }}</h2><hr>
-        
-        {{ content }}
-    </div>
+                                <hr>
+                                <p>
+                                    <center>
+                                        <a href="/copyright.html">Copyright 2022</a> DEJVOSS Productions / Codex Ipsa.
+                                        All Rights Reserved.
+                                    </center>
+                                </p>
 
-    <div class="footer"><a href="/copyright/">(C) DEJVOSS 2021</a></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="75" class="content" align="center" valign="top">
+
+                    <table border="0" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td align="center" class="right">
+                                <br>
+
+                                <img src="https://www.webdesignmuseum.org/uploaded/exhibitions/web-banners-in-the-90s/internet-explorer-1996.gif"/>
+                                <br><br>
+                                <img src="https://www.webdesignmuseum.org/uploaded/exhibitions/web-banners-in-the-90s/netscape-1996.gif"/>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+
 </body>
 
 </html>
