@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ page.title }} - Space Catalogue 1.0</title>
+</head>
+
+<body style="color: white; background-color: black;">
+    <ul style="width: 800px;">
+        <h2>{{ page.title }} - solar system</h2>
+        <hr>
+        <p>Milky way&nbsp;&nbsp;<&nbsp;&nbsp;{{ page.title }}</p>
+                <hr>
+                <div style="width: 600px; height: 360px; background-color: black;">
+                    <a href="{{ page.star1name }}.html"> <img src="/files/{{ page.star1type }}.png"></a>&nbsp;&nbsp;
+                    {% if page.planet1name %}
+                    <a href="{{ page.planet1name }}.html"> <img src="/files/{{ page.planet1type }}.png"></a>&nbsp;&nbsp;
+                    {% endif %}
+                    {% if page.planet2name %}
+                    <a href="{{ page.planet2name }}.html"> <img src="/files/{{ page.planet2type }}.png"></a>&nbsp;&nbsp;
+                    {% endif %}
+                    {% if page.planet3name %}
+                    <a href="{{ page.planet3name }}.html"> <img src="/files/{{ page.planet3type }}.png"></a>&nbsp;&nbsp;
+                    {% endif %}
+                    {% if page.planet4name %}
+                    <a href="{{ page.planet4name }}.html"> <img src="/files/{{ page.planet4type }}.png"></a>&nbsp;&nbsp;
+                    {% endif %}
+                    {% if page.planet5name %}
+                    <a href="{{ page.planet5name }}.html"> <img src="/files/{{ page.planet5type }}.png"></a>&nbsp;&nbsp;
+                    {% endif %}
+                    <!-- TODO: add more planets support -->
+                </div>
+                <em>Click on an object to get information about it. Note that the size does not equal reality.</em>
+                <br><br>
+                <hr>
+                <footer>Space Catalogue is (c) <a href="https://dejvoss.cz">DEJVOSS</a> 2021 - 2022</footer>
+    </ul>
+</body>
+
+</html>
