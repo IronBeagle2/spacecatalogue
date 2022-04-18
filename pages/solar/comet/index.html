@@ -13,7 +13,19 @@ title: Comets
         <th>Orbital period</th>
         <th>Class</th>
     </tr>
+
+    {% for comet in site.data.comets_numbered %}
     <tr>
+        <td>{{ member.image }}</td>
+        <td>{{ member.designation }}</td>
+        <td>{{ member.namedafter }}</td>
+        <td>{{ member.orbitalperiod }}</td>
+        <td>{{ member.class }}</td>
+    </tr>
+    {% endfor %}
+
+
+    <!--<tr>
         <td><a title=", CC BY-SA IGO 3.0, CC BY-SA 3.0 IGO &lt;https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en&gt;, via Wikimedia Commons"
                 href="https://commons.wikimedia.org/wiki/File:Comet_Halley_close_up-cropped.jpg"><img width="128"
                     alt="Comet Halley close up-cropped"
@@ -32,5 +44,5 @@ title: Comets
         <td>J. Encke</td>
         <td>3.30</td>
         <td>Encke-type</td>
-    </tr>
+    </tr>-->
 </table>
