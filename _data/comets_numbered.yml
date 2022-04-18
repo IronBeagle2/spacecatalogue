@@ -1,11 +1,11 @@
 - designation: 1P/Halley
-  image: <a title=", CC BY-SA IGO 3.0, CC BY-SA 3.0 IGO &lt;https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Comet_Halley_close_up-cropped.jpg"><img width="512" alt="Comet Halley close up-cropped" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Comet_Halley_close_up-cropped.jpg/512px-Comet_Halley_close_up-cropped.jpg"></a>
+  image: <a title=", CC BY-SA IGO 3.0, CC BY-SA 3.0 IGO &lt;https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Comet_Halley_close_up-cropped.jpg"><img width="128" alt="Comet Halley close up-cropped" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Comet_Halley_close_up-cropped.jpg/512px-Comet_Halley_close_up-cropped.jpg"></a>
   namedafter: E. Halley
   orbitalperiod: 75.32
   class: Halley-type
 
 - designation: 2P/Encke
-  image: <a title="Jim Scotti, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Comet_Encke.jpg"><img width="512" alt="Comet Encke" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Comet_Encke.jpg"></a>
+  image: <a title="Jim Scotti, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Comet_Encke.jpg"><img width="128" alt="Comet Encke" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Comet_Encke.jpg"></a>
   namedafter: J. Encke
   orbitalperiod: 3.30
   class: Encke-type
