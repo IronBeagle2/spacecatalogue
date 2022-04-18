@@ -1,0 +1,10 @@
+
+
+{% for planet in site.data.exoplanets %}
+---
+permalink: /exoplanetBETA/{{ planet.id }}/
+layout: exoplanet
+title: {{ planet.name }}
+---
+
+{% endfor %}

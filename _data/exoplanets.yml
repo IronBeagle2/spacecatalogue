@@ -1,4 +1,29 @@
-- star1: 
-  star1type: 
-  planet1: 
-  planet1type: 
+- id: hd40307
+  name: HD 40307
+  star1: a
+  star1type: star_mainseq_orange
+  planet1: b
+  planet1type: planet_small_unknown
+  planet2: c
+  planet2type: planet_small_unknown
+  planet3: d
+  planet3type: planet_small_unknown
+  planet4: f
+  planet4type: planet_small_unknown
+  planet5: g
+  planet5type: planet_small_unknown
+
+- id: kepler186
+  name: Kepler-186
+  star1: a
+  star1type: star_dwarf_red
+  planet1: b
+  planet1type: planet_small_unknown
+  planet2: c
+  planet2type: planet_small_unknown
+  planet3: d
+  planet3type: planet_small_unknown
+  planet4: e
+  planet4type: planet_small_unknown
+  planet5: f
+  planet5type: planet_small_unknown
